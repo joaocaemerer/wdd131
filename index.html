@@ -1,30 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 - Dynamic Web Fundamentals - Fernando Caemerer</title>
-    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals. Fernando Caemerer. Web Fundamentals, JavaScript, HTML, CSS, learning.">
+    <meta name="description"
+        content="WDD 131 - Dynamic Web Fundamentals. Fernando Caemerer. Web Fundamentals, JavaScript, HTML, CSS, learning.">
     <meta name="author" content="Fernando Caemerer">
-    <script src="scripts/getdates.js"></script>
+    <link rel="stylesheet" href="styles/base.css">
+    <script defer src="scripts/getdates.js" ></script>
+
 </head>
+
 <body>
     <header>
-        <h1>WDD 131: Dynamic Web Fundamentals - Fernando Caemerer</h1>
-        <nav>
-            <a href="https://www.linkedin.com/in/joaocaemerer/">LinkedIn</a>
-            <a href="https://byui.instructure.com/">I-Learn</a>
-            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Favorite Scripture</a>
-            <a href="#">Final Project</a>
-        </nav>
+        <div>
+            <h1>WDD 131: Dynamic Web Fundamentals - <span id="name_h1">Fernando Caemerer</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/joaocaemerer/">LinkedIn</a></li>
+                    <li><a href="https://byui.instructure.com/">I-Learn</a></li>
+                    <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Favorite
+                            Scripture</a></li>
+                    <li><a href="#">Final Project</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <section class="card">
+            <div><h2>About Me</h2></div>
+            <div>
+                <p>My name is Fernando. I was born in Brazil and live with my family in the suthern region of Brazil. I am current working as a Data Engineer in a Cross Channel Ad Plataform. I am married for 4 years and have a 6 month old baby boy.</p>
+                <img src="images/profile_pic.jpeg" alt="Fernando Caemerer">
+            </div>
+            <h2 class="state">Rio Grande do Sul, Brazil</h2>
+            <hr>
+            <div>
+                <img src="images/flag_of_brazil.png" alt="Brazilian Flag">
+                <p>Brazil is home to approximately 10% of the world's known species, showcasing its incredible biodiversity. The country's varied ecosystems, including the Amazon Rainforest, Pantanal, Atlantic Forest, and Cerrado, support a vast array of wildlife. The Amazon alone teems with jaguars, sloths, and macaws, while the Pantanal hosts capybaras and caimans. The Atlantic Forest shelters the golden lion tamarin, and the Cerrado is home to the maned wolf and giant anteater. Conservation efforts are vital to protect these unique species and their habitats.</p>
+            </div>
 
         </section>
 
         <section class="card">
-
+            <div><h2>Web Dev Resources</h2></div>
+            <ul>
+                <li><a href="https://dev.to/">DEV.to</a></li>
+                <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                <li><a href="https://www.udemy.com/pt/">Udemy</a></li>
+            </ul>
         </section>
     </main>
     <footer>
@@ -32,4 +59,5 @@
         <p id="lastModified"></p>
     </footer>
 </body>
+
 </html>

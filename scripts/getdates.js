@@ -1,10 +1,7 @@
-// select the DOM elements for output
 const year = document.querySelector("#currentyear");
+const lastModified = document.querySelector("#lastModified");
 
-// use the date object
 const today = new Date();
 
-year.innerHTML = `teseeee`;
-
-
-let oLastModif = new Date(document.lastModified);
+year.innerHTML = `${today.getFullYear()}`;
+lastModified.innerHTML = `Last Modified: ${document.lastModified}`
